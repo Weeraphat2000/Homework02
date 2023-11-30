@@ -1,0 +1,114 @@
+body{
+    margin: 0px;
+    min-height: 100vh;
+    max-width: 1024px;
+
+    /* margin: auto   สามารถใช้จัดให้อยู่ตรงกลางได้ */
+    margin: auto;
+
+    font-family: 'Noto Sans Thai Looped', sans-serif;
+}
+
+
+
+
+
+header{
+    background-image: url("https://scontent.fbkk28-1.fna.fbcdn.net/v/t39.30808-6/359507948_582981750661970_8460053991933651264_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=efb6e6&_nc_eui2=AeEg9FA9n-IhG_jPCoaFKl6-1IuItQauV8PUi4i1Bq5Xw6tc3zQE5xiPZG64VAHidMuKLIvbzDDguMXyYVnVn_Hp&_nc_ohc=wrDSTgP7JWoAX-p4jjf&_nc_ht=scontent.fbkk28-1.fna&oh=00_AfDHwCKW-94Pqc2xR662_00H3vEFpXp5vuq9kIjY5FZMVg&oe=656C509F");
+    background-repeat: no-repeat;
+    background-size:cover;
+    /* height: 70px; */
+    /* padding-top: 25px; */
+    /* padding-bottom: 25px; */
+
+    /* padding-block คือ top bottom */
+    /* padding-block: 25px; */
+
+    /* padding-inline คือ right left */
+    /* padding-inline: 15px; */
+
+    /* ความสูงต่ำสูด 70px และสามารถขยายให้สูงกว่าได้ */
+    min-height: 200px;
+
+    background-position: center center;
+}
+nav{
+    background-color: rgba(0, 100, 0, 0.352);
+
+    padding: 8px;
+
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+.button-group{
+    display: flex;
+    /* ทำให้แต่ละ item ห่างกัน 15px */
+    gap: 15px;
+}
+
+
+.prev{
+    font-size: 40px;
+}
+
+.button-group > button{
+    border: 0;
+    border-radius: 8px;
+}
+
+.welcome{
+    margin-top: 40px;
+    font-size: 32px;
+    text-align: center;
+    /* background-color: aqua; */
+}
+.select-header{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.items-row{
+    /* background-color: bisque; */
+    /* border: 1px dashed lightgreen; */
+    margin-top: 20px;
+
+    min-height: 80px;
+
+    display: flex;
+    /* จัดแนวนอน */
+    justify-content: center;
+    gap: 50px;
+    /* จัดแนวตั้ง */
+    align-items: center;
+}
+
+.item{
+    width: 200px;
+    height: 200px;
+    border: 1px solid ;
+    border-radius: 100%;
+    background-color: aliceblue;
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+img{
+    width: 100px;
+    width: 100px;
+}
+
+
+/* nav > * คือ หลัง(ติด) nav ทุกตัว          nav * คือ หลัง nav ทั้งหมดเลย    */
+/* nav > *{
+    display: inline-block;
+
+    background-color: antiquewhite;
+
+    padding: 10px 16px;
+    
+} */

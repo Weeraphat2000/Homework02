@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai+Looped:wght@300;500&display=swap" rel="stylesheet">
+
+    <title>Document</title>
+
+    <style>
+        body{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Noto Sans Thai Looped', sans-serif;
+
+            max-width: 1000px;
+            margin: auto;
+        }
+        header{
+            background-image: url("https://scontent.fbkk28-1.fna.fbcdn.net/v/t39.30808-6/359507948_582981750661970_8460053991933651264_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=efb6e6&_nc_eui2=AeEg9FA9n-IhG_jPCoaFKl6-1IuItQauV8PUi4i1Bq5Xw6tc3zQE5xiPZG64VAHidMuKLIvbzDDguMXyYVnVn_Hp&_nc_ohc=wrDSTgP7JWoAX-p4jjf&_nc_ht=scontent.fbkk28-1.fna&oh=00_AfDHwCKW-94Pqc2xR662_00H3vEFpXp5vuq9kIjY5FZMVg&oe=656C509F");
+
+            width: 100%;
+            min-height: 200px;
+
+            background-position: center center;
+
+            background-size: cover;
+        }
+        .nav{
+            display: flex;
+
+            justify-content: space-between;
+
+            font-size: 40px;
+
+            margin: 10px;
+        }
+        .button1{
+            display: flex;
+            gap: 10px;
+        }
+        button{
+            border: none;
+            width: 100px;
+            border-radius:10px ;
+
+            font-size: 20px;
+        }
+        
+        .welcome{
+            display: flex;
+
+            /* ให้เรียงตามแกน y */
+            flex-direction: column;
+
+            /* align-items คือ เรียงตามตรงข้ามกับ flex-direction */
+            align-items: center;
+
+            font-size: 30px;
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .items-row{
+            margin-top: 30px;
+            display: flex;
+            gap: 30px;
+        }
+        .item{
+            width: 200px;
+            height: 200px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            background-color: antiquewhite;
+            border-radius: 100%;
+        }
+        
+
+
+
+
+
+    </style>
+
+
+</head>
+<body>
+    <header>
+
+    </header>
+    <div class="nav">
+        <div class="prev">&lt;</div>
+        <div class="button1">
+            <button>Coupon</button>
+            <button>Top-up</button>
+            <button>EN</button>
+        </div>
+    </div>
+    <div class="welcome">
+        <div>Welcome</div>
+        <div>Please select drink</div>
+    </div>
+
+
+
+
+    <div class="container">
+        <div class="items-row">
+            <div class="item">
+                <img width="100" height="100" src="https://img.icons8.com/dotty/100/cup.png" alt="cup"/>
+                <p>item1</p>
+            </div>
+            <div class="item">
+                <img width="100" height="100" src="https://img.icons8.com/wired/100/tea.png" alt="tea"/>
+                <p>item2</p>
+            </div>
+        </div>
+        <div class="items-row">
+            <div class="item">
+                <img width="100" height="100" src="https://img.icons8.com/dotty/100/tea.png" alt="tea"/>
+                <p>item3</p>
+            </div>
+            <div class="item">
+                <img width="100" height="100" src="https://img.icons8.com/ios/100/cup--v1.png" alt="cup--v1"/>
+                <p>item4</p>
+            </div>
+        </div>
+        <div class="items-row">
+            <div class="item">
+                <img width="100" height="100" src="https://img.icons8.com/pastel-glyph/100/cup--v4.png" alt="cup--v4"/>
+                <p>item5</p>
+            </div>
+            <div class="item">
+                <img width="100" height="100" src="https://img.icons8.com/external-kiranshastry-lineal-kiranshastry/100/external-tea-food-kiranshastry-lineal-kiranshastry.png" alt="external-tea-food-kiranshastry-lineal-kiranshastry"/>
+                <p>item6</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
